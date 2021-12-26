@@ -22,6 +22,7 @@ spring:
           filters:
             - AddRequestHeader=first-request, first-request-header2
             - AddResponseHeader=first-request, first-response-header2
+            - CustomFilter
         - id: second-service
           uri: http://127.0.0.1:8082/
           predicates:
@@ -29,3 +30,4 @@ spring:
           filters:
             - AddRequestHeader=second-request, second-request-header2
             - AddResponseHeader=second-request, second-request-header2
+            - CustomFilter
