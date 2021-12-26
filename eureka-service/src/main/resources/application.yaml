@@ -1,0 +1,20 @@
+
+#서버 포트 번호 -> WebService 형태로 기동되니까, 8761번 포트를 지정해서 줬습니다.
+server:
+  port: 8761
+
+
+#각각의 마이크로 서비스에 부여할 이름 -> 해당 애플리케이션은 discoveryservice 입니다.
+
+spring:
+  application:
+    name: discoveryservice
+
+#Eureka 설정입니다.
+
+eureka:
+  client:
+    register-with-eureka: false #기본값이 true -> 자기자신의 정보를 등록하지는 않으려고 false
+    fetch-registry: false #기본값이 true -> 마찬가지로 자기 자신의 정보를 등록하지 않으려고 false
+
+
