@@ -3,6 +3,7 @@
 위 프로젝트는 기존의 
 1. Spring MVC -> https://github.com/hyunsooryu/spring-web-mvc
 2. Spring REST API - HATEOAS  -> https://github.com/hyunsooryu/spring-restApi
+
 를 이은 3번 째 데모 프로젝트 이다.
 
 ### 들어가며
